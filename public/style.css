@@ -140,7 +140,6 @@ select{
 	background-size: cover;
 	background-repeat: no-repeat;
 	padding: 40px 0;
-	background-position-x: -90px;
 }
 
 .coverCont {
@@ -816,7 +815,8 @@ input.input::placeholder {
 	    grid-template-columns: 1fr 2fr;
 	    width: 90%;
 	    justify-self: center;
-	    position: relative;    background: white;
+	    position: relative;    
+	    background: white;
 	    box-shadow: 0px 0px 4px 0px grey;
 	    top: -74px;
 	    border-radius: 4px;
