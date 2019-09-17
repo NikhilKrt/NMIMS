@@ -638,7 +638,6 @@ input.input::placeholder {
 		grid-template-columns: 1fr 1fr;
 		grid-template-rows: 1fr;
 		grid-column-gap: 30px;
-		align-items: center;
 	}
 
 	.coverCont .cards {
@@ -792,7 +791,8 @@ input.input::placeholder {
 	.cover { padding-bottom: 80px; }
 
 	.coverCont  {
-		grid-template-columns: 2fr 1fr;
+		grid-template-columns: 2fr 1fr;	
+		align-items: center;
 	}
 
 	.coverCont .cards {
