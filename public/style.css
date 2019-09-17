@@ -80,13 +80,13 @@ select{
 }
 
 .cover, .future, .programs,
-.services, .about, .office {
+.services, .about{
 	display: grid;
 	grid-template-columns: 5% 90% 5%;
 }
 
 .coverCont, .futureCont, .programsCont,
-.servicesCont, .aboutCont, .connectCont, .officeCont {
+.servicesCont, .aboutCont, .connectCont {
 	grid-column: 2;
 	display: grid;
 }
@@ -136,11 +136,11 @@ select{
 }
 
 .cover{
-	background: url(img/banner.jpg);
+	background: linear-gradient(to left, rgba(0,0,0,0.22), rgba(0,0,0, 0.22)),url(img/banner.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	padding: 40px 0;
-	background-position-x: -115px;
+	background-position-x: -90px;
 }
 
 .coverCont {
@@ -322,7 +322,7 @@ input.input::placeholder {
 }
 
 .programs{
-	background: linear-gradient(to left, rgba(0,0,0,0.62), rgba(0,0,0, 0.62)), url(img/program.jpg);
+	background: linear-gradient(to left, rgba(0,0,0,0.59), rgba(0,0,0, 0.59)), url(img/program.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 30px 0;
@@ -500,7 +500,6 @@ input.input::placeholder {
 .connect {
 	display: grid;
     grid-template-columns: 2% 96% 2%;
-	background: #ce3036;
     padding: 15px 0;
 }
 
@@ -519,8 +518,10 @@ input.input::placeholder {
 
 .connect .top {
 	display: grid;
-    grid-template-columns: 1fr 2fr;
-	grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    justify-self: center;
+    align-items: center;
+    grid-column-gap: 15px;
 }
 
 .connect .top .img {
@@ -534,6 +535,7 @@ input.input::placeholder {
 .connect .partner .text {
 	font-size: 16px;
     text-align: left;
+    justify-self: center;
 }
 
 .connectDetail {
@@ -572,21 +574,6 @@ input.input::placeholder {
 .connectCont a{
 	color: #fff;
 	cursor: pointer;
-}
-
-.office {
-	padding: 40px 0; 
-}
-
-.officeCont {
-	grid-row-gap: 15px;
-	text-align: left;
-}
-
-.officeCont .head {
-	display: grid;
-	grid-template-columns: 1fr;
-	grid-row-gap: 15px;
 }
 
 .footerCont {
@@ -763,12 +750,7 @@ input.input::placeholder {
 	}
 
 	.connectCont {
-		grid-template-columns: 1fr 1fr;
-	}
-
-	.officeCont {
-		text-align: left;
-		grid-template-columns: 1fr 1fr;
+		grid-template-columns: 1fr;
 	}
 
 	.mobileRadio {
