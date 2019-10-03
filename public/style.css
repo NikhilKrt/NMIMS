@@ -606,7 +606,7 @@ input.input::placeholder {
 	 	display: grid;
 	 	align-items: center;
 	 	height: 100%;
-	 	justify-items: end;
+	 	justify-items: center;
 	 }
 
 	.headerCont, .headerCont .headerLeft {
