@@ -776,6 +776,19 @@ input.input::placeholder {
 	.footerCont .text:first-child {
 		grid-column: 1;
 	}
+
+	.footerCont .text {
+		position: relative;
+	}
+
+	.footerCont  .text:last-child::before {
+	    content: '';
+	    width: 2px;
+	    height: 20px;
+	    background: white;
+	    position: absolute;
+	    left: -12%;
+	}
 	
 }
 
