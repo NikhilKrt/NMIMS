@@ -595,11 +595,19 @@ input.input::placeholder {
 
 @media screen and (min-width: 768px) {
 
-	.headerCont .headerLeft .img img, .headerCont .headerLeft .img{
-		max-height: 100%;
+	.headerCont .headerLeft .img img{
+		max-height: 80%;
 		height: 100%;
+		border-radius: 5px;
+		max-width: 70%;
 	}
 
+	 .headerCont .headerLeft .img{
+	 	display: grid;
+	 	align-items: center;
+	 	height: 100%;
+	 	justify-items: end;
+	 }
 
 	.headerCont, .headerCont .headerLeft {
 		grid-template-columns: 2fr 1fr;
@@ -781,7 +789,7 @@ input.input::placeholder {
 	.headerCont .headerLeft {
 		grid-template-columns: 3fr 2fr;
 		padding-left: 90px;
-		padding-right: 3px;
+		padding-right: 10px;
 	}
 
 	.headerCont .headerLeft img {
