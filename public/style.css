@@ -859,6 +859,20 @@ input.input::placeholder {
 	.services .item .details {
 	    grid-template-rows: 3fr 2fr 1fr;
 	}
+
+	.connect .partner .text{ 
+		text-align: center; 
+	}
+
+	
+}
+
+.futureCont .text {
+	color: #6e6e6e;
+}
+
+.futureCont .sub {
+	font-weight: 500;
 }
 
 
